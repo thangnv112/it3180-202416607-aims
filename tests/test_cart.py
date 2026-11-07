@@ -20,6 +20,13 @@ class TestCart(unittest.TestCase):
         with self.assertRaises(ValueError):
             cart.total_cost_with_discount(150)
 
+    def test_remove_dvd(self):
+        cart = Cart()
+        dvd = DigitalVideoDisc("The Lion King", "Animation", cost=19.95)
+        cart.add_dvd(dvd)
+        self.assertTrue(cart.remove_dvd(dvd))
+        self.assertFalse(cart.remove_dvd(dvd))
+
 
 if __name__ == "__main__":
     unittest.main()
