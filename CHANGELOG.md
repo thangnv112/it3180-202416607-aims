@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Cart.sort_by_title(), Cart.sort_by_cost().
 - search_by_category() for filtering DVDs by category.
 
+## [1.0.1] - 2026-11-07
+### Fixed
+- search_by_title: tìm kiếm không phân biệt hoa thường (case-insensitive) (#22).
+
 ## [1.0.0] - 2026-11-07
 ### Added
 - Cart.print_cart(), search_by_title(), total_cost_with_discount().
