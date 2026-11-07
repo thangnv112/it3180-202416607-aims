@@ -1,6 +1,6 @@
 # Báo cáo Trả lời Câu hỏi Thảo luận – Lab 01
 **Môn học:** IT3180 – Quản lý cấu hình phần mềm  
-**Học viên thực hiện:** [Họ và tên của bạn] – MSSV: [Mã số sinh viên]
+**Thực hiện:** Nguyễn Văn Thắng – MSSV: 202416607
 
 ---
 
