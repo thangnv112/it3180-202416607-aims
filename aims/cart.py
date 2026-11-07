@@ -32,6 +32,12 @@ class Cart:
         total = self.total_cost()
         return total * (1 - percent / 100)
 
+    def sort_by_title(self):
+        self.items.sort(key=lambda item: item.title)
+
+    def sort_by_cost(self):
+        self.items.sort(key=lambda item: item.cost, reverse=True)
+
     def print_cart(self):
         if not self.items:
             print("The cart is empty")
